@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dymo-connect-custom</id>
+    <version>1.4.6.37</version>
+    <!-- <packageSourceUrl>Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed</packageSourceUrl>-->
+    <owners>ICT TravelNoord</owners>
+    <title>dymo-connect-custom (Install)</title>
+    <authors>DYMO</authors>
+    <projectUrl>https://github.com/travelnoord/choco-dymo-connect-custom</projectUrl>
+    <tags>dymo-connect-custom</tags>
+    <description>Package to install latest DYMO Connect</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
